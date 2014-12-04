@@ -111,7 +111,12 @@ static const luaL_Reg R[] =
 
 LUALIB_API int luaopen_base64(lua_State *L)
 {
+#if LUA_VERSION_NUM <= 501
+ luaL_register(L,MYNAME,R);
+#else
  luaL_newlib(L,R);
+#endif
+
  lua_pushliteral(L,"version");			/** version */
  lua_pushliteral(L,MYVERSION);
  lua_settable(L,-3);
