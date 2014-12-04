@@ -1,4 +1,6 @@
-This is a base64 library for Lua 5.2. For information on base64 see
+[![Build Status](https://travis-ci.org/moteus/lbase64.svg?branch=master)](https://travis-ci.org/moteus/lbase64)
+
+This is a base64 library for Lua 5.1-5.3. For information on base64 see
 	http://en.wikipedia.org/wiki/Base64
 
 To try the library, just edit Makefile to reflect your installation of Lua and
