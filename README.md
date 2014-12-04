@@ -16,7 +16,9 @@ Please send comments, suggestions, and bug reports to lhf@tecgraf.puc-rio.br .
 
 -------------------------------------------------------------------------------
 
-base64 library:
- decode(s) 	 encode(s) 	 version 
+##base64 library:
+ * decode(s)
+ * encode(s)
+ * version()
 
 -------------------------------------------------------------------------------
